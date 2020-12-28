@@ -44,7 +44,7 @@ export default class Compose extends Component {
             onChange={(e) => this.updateText(e.target.value)} />
 
         </div>
-
+        {/* Piggy-backing off compose to allow users to search instead of creating a new post */}
         <div className="Compose__bottom">
           <button onClick={this.createPost}>Compose</button>
         </div>
